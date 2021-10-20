@@ -61,15 +61,17 @@ function stopRecording() {
 }
 
 startBtn.addEventListener("click", () => {
+
   const constraints = {
+    audio: true,
     video: {
       width: 1280,
       height: 720
     }
   };
-
+    
   navigator.mediaDevices
-    .getDisplayMedia(constraints)
+    .getUserMedia(constraints)
     .then(getLocalMediaStream)
     .catch(handleLocalMediaStreamError);
 });

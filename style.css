@@ -1,7 +1,11 @@
 video {
   background:#222;
   vertical-align: top;
-  --width: 50vw;
+  --width: 80vw;
   width: var(--width);
   height: calc(var(--width) * 0.5625);
+}
+
+.btn{
+  width: 100%;
 }
