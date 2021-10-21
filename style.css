@@ -9,3 +9,13 @@ video {
 .btn{
   width: 100%;
 }
+
+@media screen and (max-width: 480px) {
+  video {
+    background:#222;
+    vertical-align: top;
+    --width: 80vw;
+    width: var(--width);
+    height: calc(var(--width) * 0.5625);
+  }
+}
