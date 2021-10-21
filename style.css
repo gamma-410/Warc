@@ -14,7 +14,7 @@ video {
   video {
     background:#222;
     vertical-align: top;
-    --width: 95vw;
+    --width: 100vw;
     width: var(--width);
     height: calc(var(--width) * 0.5625);
   }
