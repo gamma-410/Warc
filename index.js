@@ -71,7 +71,7 @@ startBtn.addEventListener("click", () => {
   };
     
   navigator.mediaDevices
-    .getUserMedia(constraints)
+    .getDisplayMedia(constraints)
     .then(getLocalMediaStream)
     .catch(handleLocalMediaStreamError);
 });
