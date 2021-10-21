@@ -10,7 +10,7 @@ video {
   width: 100%;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 738px) {
   video {
     background:#222;
     vertical-align: top;
