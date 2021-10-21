@@ -1,7 +1,7 @@
 video {
   background:#222;
   vertical-align: top;
-  --width: 30vw;
+  --width: 40vw;
   width: var(--width);
   height: calc(var(--width) * 0.5625);
 }
